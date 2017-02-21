@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		875730331E5BD7FA0013BFEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 875730321E5BD7FA0013BFEA /* AppDelegate.m */; };
+		875730361E5BD7FA0013BFEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 875730351E5BD7FA0013BFEA /* main.m */; };
+		875730381E5BD7FA0013BFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875730371E5BD7FA0013BFEA /* Assets.xcassets */; };
+		8757303B1E5BD7FA0013BFEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875730391E5BD7FA0013BFEA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8757302E1E5BD7FA0013BFEA /* KeyCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		875730311E5BD7FA0013BFEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		875730321E5BD7FA0013BFEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		875730351E5BD7FA0013BFEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		875730371E5BD7FA0013BFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8757303A1E5BD7FA0013BFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8757303C1E5BD7FA0013BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8757302B1E5BD7FA0013BFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		875730251E5BD7FA0013BFEA = {
+			isa = PBXGroup;
+			children = (
+				875730301E5BD7FA0013BFEA /* KeyCounter */,
+				8757302F1E5BD7FA0013BFEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8757302F1E5BD7FA0013BFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8757302E1E5BD7FA0013BFEA /* KeyCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875730301E5BD7FA0013BFEA /* KeyCounter */ = {
+			isa = PBXGroup;
+			children = (
+				875730311E5BD7FA0013BFEA /* AppDelegate.h */,
+				875730321E5BD7FA0013BFEA /* AppDelegate.m */,
+				875730371E5BD7FA0013BFEA /* Assets.xcassets */,
+				875730391E5BD7FA0013BFEA /* MainMenu.xib */,
+				8757303C1E5BD7FA0013BFEA /* Info.plist */,
+				875730341E5BD7FA0013BFEA /* Supporting Files */,
+			);
+			path = KeyCounter;
+			sourceTree = "<group>";
+		};
+		875730341E5BD7FA0013BFEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				875730351E5BD7FA0013BFEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8757302D1E5BD7FA0013BFEA /* KeyCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8757303F1E5BD7FA0013BFEA /* Build configuration list for PBXNativeTarget "KeyCounter" */;
+			buildPhases = (
+				8757302A1E5BD7FA0013BFEA /* Sources */,
+				8757302B1E5BD7FA0013BFEA /* Frameworks */,
+				8757302C1E5BD7FA0013BFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyCounter;
+			productName = KeyCounter;
+			productReference = 8757302E1E5BD7FA0013BFEA /* KeyCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875730261E5BD7FA0013BFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Terazaki Yuta";
+				TargetAttributes = {
+					8757302D1E5BD7FA0013BFEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 875730291E5BD7FA0013BFEA /* Build configuration list for PBXProject "KeyCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875730251E5BD7FA0013BFEA;
+			productRefGroup = 8757302F1E5BD7FA0013BFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8757302D1E5BD7FA0013BFEA /* KeyCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8757302C1E5BD7FA0013BFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875730381E5BD7FA0013BFEA /* Assets.xcassets in Resources */,
+				8757303B1E5BD7FA0013BFEA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8757302A1E5BD7FA0013BFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875730361E5BD7FA0013BFEA /* main.m in Sources */,
+				875730331E5BD7FA0013BFEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		875730391E5BD7FA0013BFEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8757303A1E5BD7FA0013BFEA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8757303D1E5BD7FA0013BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8757303E1E5BD7FA0013BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		875730401E5BD7FA0013BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KeyCounter.KeyCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		875730411E5BD7FA0013BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KeyCounter.KeyCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875730291E5BD7FA0013BFEA /* Build configuration list for PBXProject "KeyCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8757303D1E5BD7FA0013BFEA /* Debug */,
+				8757303E1E5BD7FA0013BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8757303F1E5BD7FA0013BFEA /* Build configuration list for PBXNativeTarget "KeyCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875730401E5BD7FA0013BFEA /* Debug */,
+				875730411E5BD7FA0013BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875730261E5BD7FA0013BFEA /* Project object */;
+}
